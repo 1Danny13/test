@@ -1,0 +1,40 @@
+{"CA":[
+	{
+		"time":"09.00",
+		"title":"Intro to 3D Modeling"
+	},
+	{
+		"time":"10.00",
+		"title":"Circuit Hacking"
+	},
+	{
+		"time":"11.30",
+		"title":"Arduino Antics"
+	}],
+"TX":[
+	{
+		"time":"12.00",
+		"title":"Intro to 3D Modeling 2"
+	},
+	{
+		"time":"13.00",
+		"title":"Circuit Hacking 2"
+	},
+	{
+		"time":"13.30",
+		"title":"Arduino Antics 2"
+	}],
+"NY":[
+	{
+		"time":"14.00",
+		"title":"Intro to 3D Modeling 3"
+	},
+	{
+		"time":"15.00",
+		"title":"Circuit Hacking 3"
+	},
+	{
+		"time":"15.30",
+		"title":"Arduino Antics 3"
+	}]
+}

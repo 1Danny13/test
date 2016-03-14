@@ -1,0 +1,17 @@
+header{width: 1200px;margin: 0 auto;height: 50px;}
+header>a{float: right;margin-right: 20px;font-size: 18px;color:cadetblue;line-height: 50px;}
+header>a:hover{color: greenyellow;}
+.current{color: red;}
+.third{
+	padding: 7px;
+	width: 28%;
+	background-color: lightblue;
+	float: left;
+	margin-left: 20px;
+}
+#event a{display: block;line-height: 30px;}
+#content{clear: both;width: 1200px;margin: 70px auto;}
+#container{width: 100%;margin-left: -20px;}
+.time{color: #5F9EA0;float: left;}
+#sessions ul li{list-style: none;height: 30px;line-height: 30px;}
+#sessions ul li a{float: left;margin-left: 20px;}
