@@ -87,14 +87,97 @@ $("#box").resizable({
 	*/
 	
 //***********CP4:
-	$("#alink").tooltip({
-		content: "<strong>这里是内容提示框</strong>",
+/*	$("#alink").tooltip({
+		content: "<strong>这里是内容提示框！</strong>",
 //		position: 'top',
 //		deltaX:100,
 //		deltaY：100,
-		showEvent : 'click',
-		hideEvent:'dblclick'
+//		showEvent : 'click',
+//		hideEvent:'dblclick'
+//		showDelay: 500,
+//		hideDelay: 500,
+//		onShow :function(e){
+//			alert("显示提示框的触发");
+//		},
+//		onHide: function(e){
+//			alert("隐藏提示框的触发");
+//		},
+		onPosition: function(left,top){
+			console.log('left:'+left+',top:'+top);
+		},
+//		onUpdate: function(content){
+//			alert('内容更新为：'+content);
+//		},
+//		onDestroy: function(e){
+//			alert("提示框被销毁的时候触发！");
+//		},
+//		onShow: function(e){//返回tip元素对象
+//			//console.log($("#alink").tooltip('tip'));
+//			$('.tooltip-bottom').css('left',500);
+//		},
+//		onHide: function(e){
+//			$("#alink").toolti p('reposition');
 		
+	});
+	//返回属性对象
+	console.log($("#alink").tooltip('options'));
+	
+	//显示提示框
+	//$("#alink").tooltip('show');
+	
+	//隐藏提示框
+	//$("#alink").tooltip('hide');
+	
+	//更新content内容
+	//$("#alink").tooltip('upDate','更新提示内容');
+	
+	$("#alink").click(function(){
+		//销毁提示框
+		$(this).tooltip('destroy');
+		
+	});
+	*/
+	
+	
+	//***********CP8:
+/*	$('#box').progressbar({
+		width: 400,
+		height: 20,
+		value: 10,
+		text: '{value}%',
+		onChange: function(newValue,oldValue){
+			console.log("新："+newValue+",旧："+oldValue);
+		},
+	});
+	
+//	setTimeout(function(){
+//		$('#box').progressbar('setValue',70);
+//	},1000);
+//	
+//	setInterval(function(){
+//		$('#box').progressbar('setValue',$('#box').progressbar('getValue')+1);
+//	},200);
+
+	console.log($('#box').progressbar('options'));
+	*/
+	
+	
+	
+	//***********CP8:
+	$('#box').panel({
+		width:400,
+		height: 150,
+		title: '面板',
+		closable: true,
+		iconCls: 'icon-edit',
+		left: 100,
+		top:50,
+		cls: 'a',
+		headerCls:'b',
+		bodyCls:'c',
+		style:{
+			'min-height': '100px'
+		}
 	});
 	
 });
