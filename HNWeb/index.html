@@ -40,9 +40,9 @@
 				<div class="header-navbar fn_left">
 					<ul>
 						<li><a class="nav-active" href="#">首页</a></li>
-						<li><a href="#">新闻</a></li>
+						<li><a href="./page/news.html">新闻</a></li>
 						<li>
-							<a href="#">产品</a>
+							<a href="page/product.html">产品</a>
 							<ul class="nav-menu">
 								<li class="nav-li-on"><a><span>LIMS</span><i>&rsaquo;</i></a></li>
 								<li><a><span>LIMS</span><i>&rsaquo;</i></a></li>
@@ -53,21 +53,21 @@
 								<li><a><span>LIMS</span><i>&rsaquo;</i></a></li>
 							</ul>
 						</li>
-						<li><a href="#">服务</a></li>
-						<li><a href="#">行业</a></li>
-						<li><a href="#">市场</a></li>
+						<li><a href="page/service.html">服务</a></li>
+						<li><a href="">行业</a></li>
+						<li><a href="./page/marketAnalysis.html">市场</a></li>
 						<li>
-							<a href="#">合作</a>
+							<a href="">合作</a>
 							<ul class="nav-menu">
-								<li class="nav-li-on"><a><span>案例</span><i>&rsaquo;</i></a></li>
-								<li><a><span>伙伴</span><i>&rsaquo;</i></a></li>
+								<li class="nav-li-on"><a href="./page/case.html"><span>案例</span><i>&rsaquo;</i></a></li>
+								<li><a href="page/cooperation.html"><span>伙伴</span><i>&rsaquo;</i></a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="#">我们</a>
 							<ul class="nav-menu">
-								<li class="nav-li-on"><a><span>关于</span><i>&rsaquo;</i></a></li>
-								<li><a><span>加入</span><i>&rsaquo;</i></a></li>
+								<li class="nav-li-on"><a href="./page/aboutUs.html"><span>关于</span><i>&rsaquo;</i></a></li>
+								<li><a href="./page/joinUs.html"><span>加入</span><i>&rsaquo;</i></a></li>
 							</ul>
 						</li>
 					</ul>
@@ -79,13 +79,25 @@
 	
 	<section role="slider">
 		<div class="slider-wrap">
-			<div class="slider">
+			<!--<div class="slider">
 				<a><img src="img/banner-1.png"/></a>
 				<a><img src="img/banner-2.png"/></a>
 			</div>
 			<div class="button" class="clearfix">
 				<span class="on" index="1"></span>
 				<span index="2"></span>
+			</div>-->
+			<div class="container">
+				<div class="slider clearfix">
+					<a><img src="img/banner-2.png"></a>
+					<a><img src="img/banner-1.png"></a>
+					<a><img src="img/banner-2.png"></a>
+					<a><img src="img/banner-1.png"></a>
+				</div>
+				<div class="buttons">
+					<span class="on" index="0"></span>
+					<span class="" index="1"></span>
+				</div>
 			</div>
 		</div>
 	</section><!--end : slider section-->
@@ -178,7 +190,7 @@
 			<h2 class="h-title news-title">新闻<br><span>News</span></h2>
 			<ul>
 				<a href="##">
-					<li class="news-on">
+					<li class="">
 					<div class="news-list-box fn_clear">
 						<div class="animate-l">
 							<div class="news-list-l fn_left">
@@ -244,13 +256,30 @@
 		</div><!--end : news //(News)-->
 		
 		<div class="our-team">
-			<h2 class="h-title ind-anal-title"><font class="fc_white">行业分析</font><br><span>Industry Analysis</span></h2>
-			<div class="team-detail">
-				<div class="person per-on">
+			<h2 class="h-title ind-anal-title pt75"><font class="fc_white">行业分析</font><br><span>Industry Analysis</span></h2>
+			<div class="container1">
+			<div class="team-detail slider1 clearfix">
+				<div class="person">
 					<div class="img-head">
-						<img src="img/header.png" />
+						<img src="img/syz.png" />
 					</div>
-					<p class="fs28 fc_white">某某某</p>
+					<p class="fs28 fc_white">00某某某</p>
+					<p class="fs12">联合创始人，数据分析总监</p>
+					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
+				</div>
+				<div class="person">
+					<div class="img-head">
+						<img src="img/gzh.png" />
+					</div>
+					<p class="fs28 fc_white">11某某某</p>
+					<p class="fs12">联合创始人，数据分析总监</p>
+					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
+				</div>
+				<div class="person">
+					<div class="img-head">
+						<img src="img/csr.png" />
+					</div>
+					<p class="fs28 fc_white">22某某某</p>
 					<p class="fs12">联合创始人，数据分析总监</p>
 					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
 				</div>
@@ -258,26 +287,53 @@
 					<div class="img-head">
 						<img src="img/header.png" />
 					</div>
-					<p class="fs28 fc_white">某某某1</p>
+					<p class="fs28 fc_white">33某某某</p>
 					<p class="fs12">联合创始人，数据分析总监</p>
 					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
 				</div>
 				<div class="person">
 					<div class="img-head">
-						<img src="img/header.png" />
+						<img src="img/hxy.png" />
 					</div>
-					<p class="fs28 fc_white">某某某3</p>
+					<p class="fs28 fc_white">44某某某4</p>
 					<p class="fs12">联合创始人，数据分析总监</p>
 					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
 				</div>
 				<div class="person">
 					<div class="img-head">
-						<img src="img/header.png" />
+						<img src="img/lrf.png" />
 					</div>
-					<p class="fs28 fc_white">某某某4</p>
+					<p class="fs28 fc_white">55某某某4</p>
 					<p class="fs12">联合创始人，数据分析总监</p>
 					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
 				</div>
+				<div class="person">
+					<div class="img-head">
+						<img src="img/pzf.png" />
+					</div>
+					<p class="fs28 fc_white">66某某某4</p>
+					<p class="fs12">联合创始人，数据分析总监</p>
+					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
+				</div>
+				<div class="person">
+					<div class="img-head">
+						<img src="img/syz.png" />
+					</div>
+					<p class="fs28 fc_white">77某某某4</p>
+					<p class="fs12">联合创始人，数据分析总监</p>
+					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
+				</div>
+				<div class="person">
+					<div class="img-head">
+						<img src="img/gzh.png" />
+					</div>
+					<p class="fs28 fc_white">88某某某</p>
+					<p class="fs12">联合创始人，数据分析总监</p>
+					<div class="person-detail fs14">我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍我是这个人的个人介绍</div>
+				</div>
+			</div>
+		</div>
+			<div class="buttons1">
 				<a class="team-btn team-pre"><img src="img/proArrow_l.png"></a>
 				<a class="team-btn team-next"><img src="img/proArrow_r.png"></a>
 			</div>

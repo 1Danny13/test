@@ -85,12 +85,15 @@ a.fn_hl:visited { color:#EF4222; }
 .norigBodder{border-right: none !important;}
 .borderrad3{-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius:3px;}
 .ml30{margin-left: 30px;}
-.mt30{margin-bottom: 30px;}
+.mb30{margin-bottom: 30px;}
+.marb77{margin-bottom: 77px;}
+.mart77{margin-top: 77px;}
 .ml10p{margin-left: 10%;}
 .mart15{margin-top: 15px;}
 .mart20{margin-top: 20px;}
 .mart30{margin-top: 30px;}
 .mart40{margin-top: 40px;}
+.pt75{padding-top: 75px;}
 
 
 
